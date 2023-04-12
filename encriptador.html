@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+
+<!-- Meta/link -->
+
+     <title>Encriptador</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="encriptador.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- NavBar -->
+
+<div class="nav" id="navbar">
+
+    <!-- Botones Navbar -->
+
+     <div class="navbarobj" id="btnav">
+
+         <button class="bttnav" onclick="encriptar()" id="encriptarbt"><img src="src/candado.png" alt="Encriptador"><h3>Encriptador</h3></button>
+         <button class="bttnav" onclick="desencriptar()" id="desencriptarbt"><img src="src/servicio-al-cliente.png" alt="Desencriptador"><h3>Desencriptador</h3></button>
+         <button class="bttnav" onclick="copy()"><img src="src/archivo.png" alt="Copiar"><h3>Copiar</h3></button>
+        
+     </div>
+
+     <!-- H1 NavBar -->
+
+     <div class="navbarobj" id="h1nav">
+
+         <h1>challenge</h1>
+         <H3>encriptacion</H3>
+
+     </div>
+
+</div>
+
+</div>
+
+<!-- Tarjetas -->
+
+<div class="box">
+
+<!-- Right -->
+
+     <div class="tarjetas" id="tarjeta_r">
+
+          <textarea name="" id="textarea_r" cols="30" rows="10" placeholder="escribe tu texto aqui y empieza a encriptar !"></textarea>
+
+     </div>
+
+<!-- Left -->
+
+     <div class="tarjetas" id="tarjeta_l">
+
+     <!-- Funcional -->
+
+        <div id="nada">
+             <img src="src/hombres.png" alt="nada">
+             <h3>No has escrito nada !</h3>
+             <p>Prueba con lorem ipsulum, este es un texto que te servira para la funcionalidad de este challenge</p>
+        </div>
+        
+         <textarea name="" id="textarea_l" cols="30" rows="10" placeholder=""></textarea>
+
+     </div>
+
+     <!-- Disfuncional -->
+
+         <div id="wave"></div>
+
+</div>
+
+<script src="encriptador.js"></script>
+</body>
+</html>
