@@ -8,7 +8,7 @@ function encriptar() {
 
     if (pendiente.trim() == "") {
       document.getElementById("textarea_l").style.display = "none";
-      document.getElementById("nada"). style.display = "flex"
+      document.getElementById("nada").style.display = "flex"
     } 
     else {
         document.getElementById("nada").style.display = "none"
